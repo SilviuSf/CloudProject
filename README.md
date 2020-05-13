@@ -102,8 +102,27 @@ Response:
 
 ## Capturi
 
+### Pagina initiala
+
+https://user-images.githubusercontent.com/40847757/81804837-7904b600-9522-11ea-89eb-864f34ae419e.png
+
+### Rezultatul call-ului Covid-19 API
+
+https://user-images.githubusercontent.com/40847757/81805123-fc260c00-9522-11ea-8ae8-384bb6195de9.png
+
+### Rezultatul call-ului Sentiment Analysis API
+
+https://user-images.githubusercontent.com/40847757/81805133-fe886600-9522-11ea-9690-6d0c08b2045b.png
+
+### Rezultatul call-ului Chuck Norris API
+
+https://user-images.githubusercontent.com/40847757/81805140-021bed00-9523-11ea-9f5c-8588e68a281a.png
+
 ## Referinte
 (1)http://www.euro.who.int/en/health-topics/health-emergencies/coronavirus-covid-19/novel-coronavirus-2019-ncov-technical-guidance-OLD/coronavirus-disease-covid-19-outbreak-technical-guidance-europe-OLD/mental-health-and-covid-19
+
 (2)https://covid19api.com/
+
 (3)https://sentim-api.herokuapp.com/
+
 (4)https://api.chucknorris.io/
