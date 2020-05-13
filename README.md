@@ -81,7 +81,7 @@ Response:
     }
 }
 ```
-Acest API returneaza si analiza pe fiecare propozitie introdusa, dar, pentru scopul acestui proiect, s-a luat in considerare doar resultatul "overall".
+Acest API returneaza si analiza pe fiecare propozitie introdusa, dar, pentru scopul acestui proiect, s-a luat in considerare doar rezultatul "overall".
 
 ### Chuck Norris API
 
@@ -104,7 +104,7 @@ Response:
 
 ### Pagina initiala
 
-https://user-images.githubusercontent.com/40847757/81804837-7904b600-9522-11ea-89eb-864f34ae419e.png
+![ScreenShot]https://user-images.githubusercontent.com/40847757/81804837-7904b600-9522-11ea-89eb-864f34ae419e.png
 
 ### Rezultatul call-ului Covid-19 API
 
