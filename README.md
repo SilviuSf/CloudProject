@@ -104,7 +104,7 @@ Response:
 
 ### Pagina initiala
 
-![ScreenShot]https://user-images.githubusercontent.com/40847757/81804837-7904b600-9522-11ea-89eb-864f34ae419e.png
+https://user-images.githubusercontent.com/40847757/81804837-7904b600-9522-11ea-89eb-864f34ae419e.png
 
 ### Rezultatul call-ului Covid-19 API
 
