@@ -104,14 +104,15 @@ tr:nth-child(even) {
     
     function feelingCheck()
     {
-        axios.post('https://sentim-api.herokuapp.com/api/v1',
+        axios.post('https://sentim-api.herokuapp.com/api/v1/',
         {
             text : document.getElementById('textInput').textContent
         }, {
-            headers: {
-              Accept: "application/json",
-              "Content-Type": "application/json",
-            }
+             headers: {
+               Accept: "application/json",
+               "Content-Type": "application/json",
+               "Access-Control-Allow-Origin" : "*"
+             }
         }).then(function(result)
         {
             console.log(result)
