@@ -121,7 +121,14 @@ tr:nth-child(even) {
             result.data.result.type + " mood!";
         }).catch(function(error){
             var resultText = document.getElementById('sentimentResult');
+            
+            if(error.status == "500")
+            {
+                resultText.textContent = "Please disable CORS or use Microsoft Edge!";
+            }
+            else {
             resultText.textContent = "Sentiment Analysis Result: empty or incorrect input!";
+            }
         })
     }
     
