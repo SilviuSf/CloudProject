@@ -104,9 +104,14 @@ tr:nth-child(even) {
     
     function feelingCheck()
     {
+        var textInput = document.getElementById('textInput').value;
+        if(!textInput)
+        {
+            alert('No text input! Please write something in the text box!');
+        }
         axios.post('https://sentim-api.herokuapp.com/api/v1/',
         {
-            text : document.getElementById('textInput').textContent
+            text : textInput
         }, {
              headers: {
                Accept: "application/json",
@@ -121,7 +126,7 @@ tr:nth-child(even) {
         }).catch(function(error){
             var resultText = document.getElementById('sentimentResult');
             
-            resultText.textContent = "Sentiment Analysis Result: empty or incorrect input! (If that is not the case, please check if CORS is enabled or use Microsoft Edge)";
+            resultText.textContent = "Sentiment Analysis Result: Please use Microsoft Edge! (or disable CORS)";
         })
     }
     
