@@ -110,8 +110,7 @@ tr:nth-child(even) {
         }, {
              headers: {
                Accept: "application/json",
-               "Content-Type": "application/json",
-               "Access-Control-Allow-Origin" : "*"
+               "Content-Type": "application/json"
              }
         }).then(function(result)
         {
@@ -122,13 +121,7 @@ tr:nth-child(even) {
         }).catch(function(error){
             var resultText = document.getElementById('sentimentResult');
             
-            if(error.status == "500")
-            {
-                resultText.textContent = "Please disable CORS or use Microsoft Edge!";
-            }
-            else {
-            resultText.textContent = "Sentiment Analysis Result: empty or incorrect input!";
-            }
+            resultText.textContent = "Sentiment Analysis Result: empty or incorrect input! (If that is not the case, please check if CORS is enabled or use Microsoft Edge)";
         })
     }
     
