@@ -49,7 +49,7 @@ Response:
 
 ### Sentiment Analysis API
 
-GET / https://sentim-api.herokuapp.com/api/v1/
+POST / https://sentim-api.herokuapp.com/api/v1/
 
 Request:
 ```
