@@ -108,6 +108,7 @@ tr:nth-child(even) {
         if(!textInput)
         {
             alert('No text input! Please write something in the text box!');
+            return;
         }
         axios.post('https://sentim-api.herokuapp.com/api/v1/',
         {
